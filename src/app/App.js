@@ -5,8 +5,8 @@ import Root from './Root';
 import Play from './Play';
 
 const router = createBrowserRouter(createRoutesFromElements(
-  <Route path="/" element={<Root/>}>
-    <Route path="/play" element={<Play/>}/>
+  <Route path="/BattleShip_v2" element={<Root/>}>
+    <Route path="/BattleShip_v2/play" element={<Play/>}/>
   </Route>
 ))
 function App() {
